@@ -1,0 +1,3 @@
+# docker-jackett
+
+Jackett
