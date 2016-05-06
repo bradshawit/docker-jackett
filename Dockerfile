@@ -26,7 +26,6 @@ RUN mkdir /opt/jackett && mv /tmp/Jackett*/* /opt/jackett
 RUN chown -R jackett:jackett /opt/jackett
 
 # RUN systemctl enable jackett && service jackett start
-
 EXPOSE 9117
 
 # CMD ["mono --debug /opt/NzbDrone/NzbDrone.exe"]
