@@ -8,6 +8,7 @@ RUN apt-get update -q && \
     apt-get install -qy wget && \
     apt-get clean
     
+    
 ADD launch.sh /launch.sh
 RUN chmod +x "/launch.sh"
 
